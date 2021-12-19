@@ -32,7 +32,7 @@ encoder와 decoder를 나란히 배치한 U-net 구조로 encoding을 거치면�
 * criterion = BCEwithLogitsLoss
 
 ## 실험
-1. RGB to RGB: - [여기로 이동](#RGB_to_RGB.ipynb)
-2. RGB to RGB
-3. RGB to RGB
-4. Lab to RGB 
+1. RGB to RGB: [1번 실험](#RGB_to_RGB.ipynb)
+2. RGB to RGB: [2번 실험](#RGB_to_RGB.ipynb)
+3. RGB to RGB: [3번 실험](#RGB_to_RGB.ipynb)
+4. Lab to RGB: [4번 실험](#Lab_to_RGB.ipynb)
