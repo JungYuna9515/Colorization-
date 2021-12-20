@@ -38,30 +38,30 @@ encoder와 decoder를 나란히 배치한 U-net 구조로 encoding을 거치면�
 4. Lab to RGB: [4번 실험](#Lab_to_RGB.ipynb)
 
 ## 결과
-**1. RGB to RGB - 1번실험**<br>
+#### **1. RGB to RGB - 1번실험**<br>
 ![loss1](https://user-images.githubusercontent.com/65711055/146713838-7c9b4a5d-cd7c-4b8a-9b9b-83928d568b0f.png)<br>
 ![실험1 그림1](https://user-images.githubusercontent.com/65711055/146713850-812d6937-b94e-44c2-8571-94108219a989.png)<br>
 ssim:  0.9968320418069206, psnr = 63.6979<br>
 ![실험1 그림2](https://user-images.githubusercontent.com/65711055/146713858-332fa3e9-3e3a-4526-a75e-3143a1669b46.png)<br>
 ssim:  0.9997259981233829, psnr = 69.8225<br>
 ![실험1 그림3](https://user-images.githubusercontent.com/65711055/146713866-d27ee26c-2d8d-4595-99fb-c9ec7bc4dfb7.png)<br>
-ssim:  0.9998020751613257, psnr = 67.9700<br><br>
-**2. RGB to RGB - 2번실험**<br>
+ssim:  0.9998020751613257, psnr = 67.9700<br><br><br>
+#### **2. RGB to RGB - 2번실험**<br>
 ![loss2](https://user-images.githubusercontent.com/65711055/146714624-76205361-3f66-44c4-8257-78ff578968f3.png)<br>
 ![실험2 그림1](https://user-images.githubusercontent.com/65711055/146714636-c1ac6dbe-1486-4a60-8d3a-2f9d0883a7d5.png)<br>
 ssim:  0.9999025335420327, psnr = 76.4366<br>
 ![실험2 그림2](https://user-images.githubusercontent.com/65711055/146714644-fbfcfba1-42fa-421d-a3b6-ca1a02289342.png)<br>
 ssim:  0.9999220159364776, psnr = 74.1495<br>
 ![실험2그림3](https://user-images.githubusercontent.com/65711055/146714678-256ba3d6-ffab-4dd1-adff-66c92223b561.png)<br>
-ssim:  0.9997991687728733 psnr =  69.5486<br>
-**3. RGB to RGB - 3번실험**<br>
-![loss2](https://user-images.githubusercontent.com/65711055/146714624-76205361-3f66-44c4-8257-78ff578968f3.png)<br>
-![실험2 그림1](https://user-images.githubusercontent.com/65711055/146714636-c1ac6dbe-1486-4a60-8d3a-2f9d0883a7d5.png)<br>
-ssim:  0.9999025335420327, psnr = 76.4366<br>
-![실험2 그림2](https://user-images.githubusercontent.com/65711055/146714644-fbfcfba1-42fa-421d-a3b6-ca1a02289342.png)<br>
-ssim:  0.9999220159364776, psnr = 74.1495<br>
-![실험2그림3](https://user-images.githubusercontent.com/65711055/146714678-256ba3d6-ffab-4dd1-adff-66c92223b561.png)<br>
-ssim:  0.9997991687728733 psnr =  69.5486<br>
+ssim:  0.9997991687728733 psnr =  69.5486<br><br><br>
+#### **3. RGB to RGB - 3번실험**<br>
+![loss3](https://user-images.githubusercontent.com/65711055/146714903-e88e38c6-e5e8-4ebd-b8e9-0c8aa831bbf4.png)<br>
+![실험3 그림1](https://user-images.githubusercontent.com/65711055/146714911-24577252-f524-419a-be3a-13ace25fb15e.png)<br>
+ssim:  0.9996700831853466, psnr = 76.1649<br>
+![실험3 그림2](https://user-images.githubusercontent.com/65711055/146714927-ac61beb8-3f13-45a7-a411-bc1a13d54ed2.png)<br>
+ssim:  0.999896599125892, psnr = 73.4646<br>
+![실험3 그림3](https://user-images.githubusercontent.com/65711055/146714941-5d77a390-9635-4110-8a59-f6bfed70e36a.png)<br>
+ssim:  0.9993893211720509 psnr = 72.2418<br><br><br>
 **4. Lab to RGB - 4번실험**<br>
 
 ## Conclusion
