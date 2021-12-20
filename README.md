@@ -38,7 +38,7 @@ encoder와 decoder를 나란히 배치한 U-net 구조로 encoding을 거치면�
 4. Lab to RGB: [4번 실험](#Lab_to_RGB.ipynb)
 
 ## 결과
-**1. RGB to RGB - 1번실험**
+**1. RGB to RGB - 1번실험**<br>
 ![loss1](https://user-images.githubusercontent.com/65711055/146713838-7c9b4a5d-cd7c-4b8a-9b9b-83928d568b0f.png)<br>
 ![실험1 그림1](https://user-images.githubusercontent.com/65711055/146713850-812d6937-b94e-44c2-8571-94108219a989.png)<br>
 ssim:  0.9968320418069206, psnr = 63.6979<br>
@@ -46,9 +46,16 @@ ssim:  0.9968320418069206, psnr = 63.6979<br>
 ssim:  0.9997259981233829, psnr = 69.8225<br>
 ![실험1 그림3](https://user-images.githubusercontent.com/65711055/146713866-d27ee26c-2d8d-4595-99fb-c9ec7bc4dfb7.png)<br>
 ssim:  0.9998020751613257, psnr = 67.9700<br><br>
-**2. RGB to RGB - 2번실험**
-
+**2. RGB to RGB - 2번실험**<br>
+![loss2](https://user-images.githubusercontent.com/65711055/146714294-46e37278-3541-44c0-b849-baeb08dc9c72.png)<br>
+![실험2 그림1](https://user-images.githubusercontent.com/65711055/146714305-e0b82ff2-e851-4b85-b4c6-7c631647af82.png)<br>
+ssim:  0.9999025335420327, psnr = 76.4366<br>
+![실험2 그림2](https://user-images.githubusercontent.com/65711055/146714316-fd3bc8af-d13a-4194-9270-cabc47363579.png)<br>
+ssim:  0.9999220159364776, psnr = 74.1495<br>
+![실험2그림3](https://user-images.githubusercontent.com/65711055/146714336-1a646585-9f47-47f0-913f-86169e4bb83e.png)<br>
+ssim:  0.9997991687728733 psnr =  69.5486<br>
 **3. RGB to RGB - 3번실험**
+
 **4. Lab to RGB - 4번실험**
 
 ## Conclusion
