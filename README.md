@@ -39,4 +39,17 @@ encoder와 decoder를 나란히 배치한 U-net 구조로 encoding을 거치면�
 
 ## 결과
 **1. RGB to RGB - 1번실험**
+![loss1](https://user-images.githubusercontent.com/65711055/146713838-7c9b4a5d-cd7c-4b8a-9b9b-83928d568b0f.png)<br>
+![실험1 그림1](https://user-images.githubusercontent.com/65711055/146713850-812d6937-b94e-44c2-8571-94108219a989.png)<br>
+ssim:  0.9968320418069206, psnr = 63.6979<br>
+![실험1 그림2](https://user-images.githubusercontent.com/65711055/146713858-332fa3e9-3e3a-4526-a75e-3143a1669b46.png)<br>
+ssim:  0.9997259981233829, psnr = 69.8225<br>
+![실험1 그림3](https://user-images.githubusercontent.com/65711055/146713866-d27ee26c-2d8d-4595-99fb-c9ec7bc4dfb7.png)<br>
+ssim:  0.9998020751613257, psnr = 67.9700<br><br>
+**2. RGB to RGB - 2번실험**
 
+**3. RGB to RGB - 3번실험**
+**4. Lab to RGB - 4번실험**
+
+## Conclusion
+원래는 Colorizaiton을 위해 나온 모델인 ‘chromaGAN’까지 사용하는 것이 목표였는데, 처음 GAN을 사용하는 것이다 보니 미숙했던 점도 있었고, 색공간을 바꾸어가면서 시각화를 진행하려고 하다 보니 이 부분이 막혀서 시간이 많이 지체되어 목표를 달성하진 못했다. 하지만 pix2pix 모델을 사용하여 결과를 내기 위해 모델도 다양하게 바꾸어보고, activation function, 하이퍼파라미터, 전처리 방식도 다양하게 바꾸어가면서 사용해볼 수 있었기 때문에 더 깊이있게 이해할 수 있었던 것 같다. 특정한 부분에서 시간을 많이 잡아먹은 것은 아쉽지만, 이러한 경험을 통해서 앞으로 동일한 상황에 직면했을 때 문제를 더 효율적으로 해결할 수 있을 것 같다. 이 프로젝트는 GAN을 사용하여 학습을 시킨 것이지만, 이후에는 Transformer나 chromaGAN을 사용하여 프로젝트를 조금 더 발전시킬 생각이다. 
