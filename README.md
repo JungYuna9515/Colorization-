@@ -32,10 +32,10 @@ encoder와 decoder를 나란히 배치한 U-net 구조로 encoding을 거치면�
 * criterion = BCEwithLogitsLoss
 
 ## 실험
-1. RGB to RGB: 1번 실험-Generator:Unet, Discriminator-PatchGAN(16x16)<br>
-2. RGB to RGB: 2번 실험-Generator:Unet(w/o Dropout), Discriminator-PatchGAN(1x1)
-4. RGB to RGB: 3번 실험-Generator:Unet(w/o Dropout), Discriminator-PatchGAN(8x8)
-5. Lab to RGB: 4번 실험-Generator:Unet(w/o Dropout), Discriminator-PatchGAN(8x8)
+1번 실험(RGB to RGB)-Generator:Unet, Discriminator-PatchGAN(16x16)<br>
+2번 실험(RGB to RGB)-Generator:Unet(w/o Dropout), Discriminator-PatchGAN(1x1)
+3번 실험(RGB to RGB)-Generator:Unet(w/o Dropout), Discriminator-PatchGAN(8x8)
+4번 실험(Lab to RGB)-Generator:Unet(w/o Dropout), Discriminator-PatchGAN(8x8)
 
 ## 결과
 #### **1. RGB to RGB - 1번실험**<br>
