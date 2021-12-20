@@ -47,16 +47,22 @@ ssim:  0.9997259981233829, psnr = 69.8225<br>
 ![실험1 그림3](https://user-images.githubusercontent.com/65711055/146713866-d27ee26c-2d8d-4595-99fb-c9ec7bc4dfb7.png)<br>
 ssim:  0.9998020751613257, psnr = 67.9700<br><br>
 **2. RGB to RGB - 2번실험**<br>
-![loss2](https://user-images.githubusercontent.com/65711055/146714294-46e37278-3541-44c0-b849-baeb08dc9c72.png)<br>
-![실험2 그림1](https://user-images.githubusercontent.com/65711055/146714305-e0b82ff2-e851-4b85-b4c6-7c631647af82.png)<br>
+![loss2](https://user-images.githubusercontent.com/65711055/146714624-76205361-3f66-44c4-8257-78ff578968f3.png)<br>
+![실험2 그림1](https://user-images.githubusercontent.com/65711055/146714636-c1ac6dbe-1486-4a60-8d3a-2f9d0883a7d5.png)<br>
 ssim:  0.9999025335420327, psnr = 76.4366<br>
-![실험2 그림2](https://user-images.githubusercontent.com/65711055/146714316-fd3bc8af-d13a-4194-9270-cabc47363579.png)<br>
+![실험2 그림2](https://user-images.githubusercontent.com/65711055/146714644-fbfcfba1-42fa-421d-a3b6-ca1a02289342.png)<br>
 ssim:  0.9999220159364776, psnr = 74.1495<br>
-![실험2그림3](https://user-images.githubusercontent.com/65711055/146714336-1a646585-9f47-47f0-913f-86169e4bb83e.png)<br>
+![실험2그림3](https://user-images.githubusercontent.com/65711055/146714678-256ba3d6-ffab-4dd1-adff-66c92223b561.png)<br>
 ssim:  0.9997991687728733 psnr =  69.5486<br>
-**3. RGB to RGB - 3번실험**
-
-**4. Lab to RGB - 4번실험**
+**3. RGB to RGB - 3번실험**<br>
+![loss2](https://user-images.githubusercontent.com/65711055/146714624-76205361-3f66-44c4-8257-78ff578968f3.png)<br>
+![실험2 그림1](https://user-images.githubusercontent.com/65711055/146714636-c1ac6dbe-1486-4a60-8d3a-2f9d0883a7d5.png)<br>
+ssim:  0.9999025335420327, psnr = 76.4366<br>
+![실험2 그림2](https://user-images.githubusercontent.com/65711055/146714644-fbfcfba1-42fa-421d-a3b6-ca1a02289342.png)<br>
+ssim:  0.9999220159364776, psnr = 74.1495<br>
+![실험2그림3](https://user-images.githubusercontent.com/65711055/146714678-256ba3d6-ffab-4dd1-adff-66c92223b561.png)<br>
+ssim:  0.9997991687728733 psnr =  69.5486<br>
+**4. Lab to RGB - 4번실험**<br>
 
 ## Conclusion
 원래는 Colorizaiton을 위해 나온 모델인 ‘chromaGAN’까지 사용하는 것이 목표였는데, 처음 GAN을 사용하는 것이다 보니 미숙했던 점도 있었고, 색공간을 바꾸어가면서 시각화를 진행하려고 하다 보니 이 부분이 막혀서 시간이 많이 지체되어 목표를 달성하진 못했다. 하지만 pix2pix 모델을 사용하여 결과를 내기 위해 모델도 다양하게 바꾸어보고, activation function, 하이퍼파라미터, 전처리 방식도 다양하게 바꾸어가면서 사용해볼 수 있었기 때문에 더 깊이있게 이해할 수 있었던 것 같다. 특정한 부분에서 시간을 많이 잡아먹은 것은 아쉽지만, 이러한 경험을 통해서 앞으로 동일한 상황에 직면했을 때 문제를 더 효율적으로 해결할 수 있을 것 같다. 이 프로젝트는 GAN을 사용하여 학습을 시킨 것이지만, 이후에는 Transformer나 chromaGAN을 사용하여 프로젝트를 조금 더 발전시킬 생각이다. 
